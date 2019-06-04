@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 public class EventController {
     @Autowired
@@ -15,6 +17,12 @@ public class EventController {
     @PostMapping("/events")
     public Event createEvent(@RequestBody Event event) {
         return eventService.createEvent(event);
+
+    }
+
+    @GetMapping("/events")
+    public List<Event> listEvents() {
+        return eventService.getSortedEvents();
 
     }
 }
