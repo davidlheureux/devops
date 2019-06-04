@@ -2,7 +2,7 @@
 
 ### Documentation ###
 
-https://github.com/BNC1308/devops/doc
+[/doc/readme.md](/doc/readme.md)
 
 ### EndPoints : ###
 
