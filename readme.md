@@ -1,8 +1,10 @@
-##################################
-######## Squad 3 TEAM !!! #########
-###################################
+## Squad 3 TEAM !!! ##
 
-EndPoints :
+### Documentation ###
+
+https://github.com/BNC1308/devops/doc
+
+### EndPoints : ###
 
 http://localhost:8080/Events/                                     METHODES : GET, POST, PUT    
 
