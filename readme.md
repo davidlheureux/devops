@@ -1,8 +1,10 @@
-##################################
-######## Squad 3 TEAM !!! #########
-###################################
+## Squad 3 TEAM !!! ##
 
-EndPoints :
+### Documentation ###
+
+[/doc/readme.md](/doc/readme.md)
+
+### EndPoints : ###
 
 http://localhost:8080/Events/                                     METHODES : GET, POST, PUT    
 
